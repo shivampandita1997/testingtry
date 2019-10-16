@@ -5,7 +5,7 @@ pipeline {
          stage('executing') {
             steps {
 
-                bat 'python test_car_pytest.py'
+                bat 'Python'
 
             }
         }
