@@ -5,7 +5,7 @@ pipeline {
          stage('executing') {
             steps {
 
-                bat 'python test_car_pytest.py::test_car_accelerate(my_car)'
+                bat 'python test_car_pytest.py::test_car_accelerate'
 
             }
         }
